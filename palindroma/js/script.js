@@ -26,7 +26,7 @@ const palindromeCheck = function (word) {
   }
   // Invoco la funzione di controllo degli array inserendo i due array precedentemente creati come oggetto
   arrayCheck(forwardWord, reverseWord);
-  // Dichiaro una funzione di controllo con valore uguale a quello della funzione, il cui valore sarà quello complessivo dell'intera funzione
+  // Dichiaro una variabile di controllo con valore uguale a quello della funzione, il cui valore sarà quello complessivo dell'intera funzione
   let wordCheck = arrayCheck(forwardWord, reverseWord);
   console.log(wordCheck);
   return wordCheck;
